@@ -1,0 +1,8 @@
+{
+  "name": "BeatboxApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "86b9f77a"
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "BeatboxApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
