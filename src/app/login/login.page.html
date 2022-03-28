@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-title>
+    Login
+  </ion-title>
+  <ion-item>
+    <ion-label position="floating">Username</ion-label>
+    <ion-input type="text" #userName required></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="password" #userPassword required></ion-input>
+  </ion-item>
+  <ion-button (click)="authService.SignIn(userName.value, userPassword.value)">
+    Log in
+  </ion-button>
+  <hr>
+  <ion-item>
+    <ion-button (click)="authService.GoogleAuth()"><ion-icon name="logo-google"></ion-icon> Log in with Google</ion-button>
+  </ion-item>
+</ion-content>
